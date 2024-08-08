@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-""" User module
+""" User module for User Model
 """
 import hashlib
 from models.base import Base
 
 
 class User(Base):
-    """ User class
+    """ User class model
     """
 
     def __init__(self, *args: list, **kwargs: dict):
